@@ -4,4 +4,6 @@ python:
   
 install:
   - pip install -U git+https://github.com/Rapptz/discord.py@rewrite
-  
+
+script:
+- python main.py
